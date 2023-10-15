@@ -1,0 +1,30 @@
+nav {
+  background: var(--clr-white);
+  height: 3rem;
+  display: grid;
+  align-items: center;
+  box-shadow: var(--dark-shadow);
+}
+.navigation-menu {
+  width: 90vw;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation-menu h4 {
+  margin-bottom: 0;
+  color: var(--clr-primary-5);
+}
+.menu-options {
+  display: flex;
+}
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--clr-primary-1);
+  letter-spacing: var(--spacing);
+  margin-right: 1rem;
+}
